@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="pt" class="no-js">
+<head>
+<!-- @head -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#16132e">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=JetBrains+Mono:wght@500;700&family=Nunito:wght@400;600;700;800&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+<meta property="og:site_name" content="Codelearn">
+<meta property="og:locale" content="pt_PT">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:image" content="assets/img/personagens-banner.webp">
+<!-- /@head -->
+<title>Contacto · Codelearn</title>
+<meta name="description" content="Fala com a Codelearn: tira dúvidas sobre o programa online de programação para crianças e jovens.">
+<meta property="og:title" content="Contacto · Codelearn">
+</head>
+<body data-page="contacto">
+<!-- @header -->
+<a class="skip" href="#conteudo">Saltar para o conteúdo</a>
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="index.html" aria-label="Codelearn — início"><img src="assets/img/logo.png" alt="Codelearn" width="164" height="42"></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu"><span></span></button>
+    <nav class="nav-menu" id="menu" aria-label="Principal">
+      <ul class="nav-links">
+        <li><a href="metodo.html" data-nav="metodo">O método</a></li>
+        <li><a href="plano.html" data-nav="plano">Plano de estudos</a></li>
+        <li><a href="precos.html" data-nav="precos">Preços</a></li>
+        <li><a href="faq.html" data-nav="faq">Perguntas</a></li>
+        <li><a href="sobre.html" data-nav="sobre">Sobre nós</a></li>
+        <li><a href="contacto.html" data-nav="contacto" aria-current="page">Contacto</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a class="nav-login" href="https://fun.codelearn.pt">Entrar</a>
+        <a class="btn btn-lime btn-sm" href="https://fun.codelearn.pt/enroll">Experimenta grátis</a>
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /@header -->
+
+<main id="conteudo">
+
+  <section class="page-hero dots">
+    <div class="hero-blob b1" style="background:var(--green);opacity:.4"></div>
+    <div class="wrap page-hero-grid on-dark" style="background:none">
+      <div>
+        <span class="eyebrow">Contacto</span>
+        <h1>Vamos <span class="hl">conversar</span>?</h1>
+        <p class="lead">Tens dúvidas sobre o programa, os planos ou a idade certa para começar? Escreve-nos e respondemos o mais depressa possível.</p>
+      </div>
+      <img class="char" src="assets/img/feiticeira.webp" alt="A feiticeira da Codelearn" width="700" height="864">
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap split" style="align-items:start">
+      <div class="card reveal" style="box-shadow:var(--shadow-lg)">
+        <h2 style="font-size:clamp(1.6rem,3vw,2.2rem)">Envia-nos uma mensagem</h2>
+        <form class="form" id="lead-form" data-endpoint="https://codelearn.cat/wp-content/plugins/codelearn/codelearn_lead_process.php" data-recaptcha="6LdB4F8sAAAAAGdh5ApcFDnYmspMr6wbWhm4OjzJ" novalidate>
+          <!-- Mesmo processo de leads que codelearn.cat; todos os pedidos vão para a Central -->
+          <input type="hidden" name="scope" value="176">
+          <input type="hidden" name="lang" value="pt">
+          <input type="hidden" name="recaptcha_token" value="">
+          <input type="hidden" name="recaptcha_error" value="">
+          <input type="hidden" name="recaptcha_error_context" value="">
+          <input type="text" name="username" autocomplete="off" tabindex="-1" aria-hidden="true" style="display:none">
+          <div class="form-row">
+            <div class="field"><label for="contact_name">Nome</label><input id="contact_name" name="name" required autocomplete="name"></div>
+            <div class="field"><label for="contact_email">Email</label><input id="contact_email" name="email" type="email" required autocomplete="email"></div>
+          </div>
+          <div class="form-row">
+            <div class="field"><label for="contact_phone">Telefone</label><input id="contact_phone" name="phone" type="tel" required autocomplete="tel" placeholder="+351 …"></div>
+            <div class="field"><label for="contact_city">Localidade <span style="font-weight:400;color:var(--muted)">(opcional)</span></label><input id="contact_city" name="city" autocomplete="address-level2"></div>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="contact_source">Como nos conheceste?</label>
+              <select id="contact_source" name="contact_source" required>
+                <option value="">Escolhe uma opção</option>
+                <option value="friends_and_family">Conheço alguém que é aluno</option>
+                <option value="social_media">Redes sociais</option>
+                <option value="search_engines">Pesquisa na internet</option>
+                <option value="school">Escola</option>
+                <option value="newsletter">Newsletter ou anúncio online</option>
+                <option value="TV">Televisão</option>
+                <option value="radio">Rádio</option>
+                <option value="magazine">Imprensa ou revista</option>
+                <option value="others">Outro</option>
+              </select>
+            </div>
+            <div class="field"><label for="contact_age">Idade do aluno <span style="font-weight:400;color:var(--muted)">(opcional)</span></label><input id="contact_age" inputmode="numeric" maxlength="3"></div>
+          </div>
+          <div class="field"><label for="contact_notes">Mensagem</label><textarea id="contact_notes" name="notes" required></textarea></div>
+          <label class="check"><input type="checkbox" name="legal" value="1" required> <span>Li e aceito a <a href="https://codelearn.com/privacy-policy/" target="_blank" rel="noopener">política de privacidade</a>.</span></label>
+          <div class="btn-row">
+            <button class="btn btn-lime btn-lg" type="submit">Enviar mensagem <span class="arrow">→</span></button>
+          </div>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+
+      <div class="reveal reveal-d1">
+        <span class="eyebrow">Outras formas</span>
+        <h2 style="font-size:clamp(1.6rem,3vw,2.2rem)">Estamos à distância de um clique</h2>
+        <div class="contact-list" style="margin:28px 0 40px">
+          <div class="contact-item">
+            <div class="icon bg-lime">✉️</div>
+            <div><a href="mailto:info@codelearn.pt">info@codelearn.pt</a><small>Para dúvidas, inscrições e propostas</small></div>
+          </div>
+          <div class="contact-item">
+            <div class="icon bg-sun">🎓</div>
+            <div><a href="https://fun.codelearn.pt">fun.codelearn.pt</a><small>Já és aluno? Entra na plataforma e fala com os teus professores</small></div>
+          </div>
+          <div class="contact-item">
+            <div class="icon bg-sky">❓</div>
+            <div><a href="faq.html">Perguntas frequentes</a><small>Talvez a resposta já esteja lá</small></div>
+          </div>
+        </div>
+        <div class="card" style="background:var(--violet);color:#fff">
+          <h3 style="color:#fff">A melhor forma de tirar dúvidas? Experimentar.</h3>
+          <p style="color:#efeaff">15 dias grátis, sem compromisso. Se não for para ti, cancelas e não pagas nada.</p>
+          <a class="btn btn-sun" href="https://fun.codelearn.pt/enroll">Experimentar grátis <span class="arrow">→</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- @footer -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="index.html"><img src="assets/img/logo-branco.png" alt="Codelearn" width="180" height="46" loading="lazy"></a>
+        <p>A escola online de programação e pensamento computacional para crianças e jovens. Aprende a programar a jogar, ao teu ritmo e a partir de casa.</p>
+        <div class="socials">
+          <a href="https://www.instagram.com/codelearncom" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+          <a href="https://www.youtube.com/channel/UCVeRFxvWetj86tQSolsSH9w" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12 31 31 0 0 0 1 16.8a3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-4.8 31 31 0 0 0-.5-4.8ZM9.8 15.1V8.9L15.6 12l-5.8 3.1Z"/></svg></a>
+          <a href="https://www.linkedin.com/company/codelearn" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9.5h4v11H3v-11Zm7 0h3.8v1.6h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6v5.4h-4v-4.8c0-1.2 0-2.6-1.6-2.6s-1.9 1.2-1.9 2.5v4.9h-4v-11Z"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Aprender</h4>
+        <ul>
+          <li><a href="metodo.html">O método Codelearn</a></li>
+          <li><a href="plano.html">Plano de estudos</a></li>
+          <li><a href="precos.html">Planos e preços</a></li>
+          <li><a href="https://fun.codelearn.pt/enroll">15 dias grátis</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Codelearn</h4>
+        <ul>
+          <li><a href="sobre.html">Sobre nós</a></li>
+          <li><a href="faq.html">Perguntas frequentes</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li><a href="https://codelearn.com/franchises/">Franquias</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Fala connosco</h4>
+        <ul>
+          <li><a href="mailto:info@codelearn.pt">info@codelearn.pt</a></li>
+          <li><a href="https://fun.codelearn.pt">Área de alunos</a></li>
+          <li><a href="https://codelearn.com/privacy-policy/">Política de privacidade</a></li>
+          <li><a href="https://codelearn.com/terms/">Termos e condições</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> Codelearn · Feito com ♥ e muito código</span>
+      <span class="mono">&gt;_ 100% online · estejas onde estiveres</span>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/main.js" defer></script>
+<!-- /@footer -->
+</body>
+</html>
