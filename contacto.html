@@ -63,8 +63,8 @@
     <div class="wrap split" style="align-items:start">
       <div class="card reveal" style="box-shadow:var(--shadow-lg)">
         <h2 style="font-size:clamp(1.6rem,3vw,2.2rem)">Envia-nos uma mensagem</h2>
-        <form class="form" id="lead-form" data-endpoint="https://codelearn.cat/wp-content/plugins/codelearn/codelearn_lead_process.php" data-recaptcha="6LdB4F8sAAAAAGdh5ApcFDnYmspMr6wbWhm4OjzJ" novalidate>
-          <!-- Mesmo processo de leads que codelearn.cat; todos os pedidos vão para a Central -->
+        <form class="form" id="lead-form" data-endpoint="https://fun.codelearn.cat/api/contacts" data-recaptcha="6LdB4F8sAAAAAGdh5ApcFDnYmspMr6wbWhm4OjzJ" novalidate>
+          <!-- Envio por POST para a API de contactos; âmbito Central -->
           <input type="hidden" name="scope" value="176">
           <input type="hidden" name="lang" value="pt">
           <input type="hidden" name="recaptcha_token" value="">
